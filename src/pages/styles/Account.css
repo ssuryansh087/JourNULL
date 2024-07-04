@@ -1,0 +1,164 @@
+#SignInPageDiv{
+    display: flex;
+}
+
+#SignInLeft{
+    width: 59.5%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    margin-top: 0.25%;
+    border-radius: 20px;
+    background-color: #000;
+    height: 81vh;
+}
+
+#SignInPageJourNULL{
+    position: absolute;
+    margin-left: 2%;
+    font-size: 200%;
+    color: #fff;
+}
+
+.SignInPageStars{
+    position: absolute;
+    margin-left: 50%;
+    font-size: 200%;
+    color: #fff;
+}
+
+#LoginToYourAccount{
+    text-align: center;
+    padding-top: 12.5%;
+    color: whitesmoke;
+    font-size: 300%;
+}
+
+#SignInEmailInput{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+}
+
+#PasswordInputDiv{
+    position: relative;
+    margin-top: 3%;
+}
+
+#SignInPasswordInput{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+}
+
+.ShowHideButton{
+    position: absolute;
+    left: 69%;
+    top: 15.5%;
+    width: 7.5%;
+    border: none;
+    background-color: #000;
+    color: whitesmoke;
+    padding: 0.5%;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: "Karla", sans-serif;
+}
+
+.ShowHideButton:hover{
+    cursor: pointer;
+}
+
+#SignInSubmitButton{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 3%;
+    padding: 2px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 200%;
+    border-radius: 25px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+#SignInSubmitButton:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: whitesmoke;
+    padding: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: solid whitesmoke 2px;
+    box-shadow: 0px 0px 20px 10px rgba(255,255,255,0.25);
+}
+
+#SignInPageRight{
+    width: 39.75%;
+    margin-left: 0%;
+    margin-right: 0.25%;
+    margin-top: 0.25%;
+    border-radius: 20px;
+    background-color: #000;
+    height: 81vh;
+    font-family: 'Karla', sans-serif;
+}
+
+#SignInLogo{
+    width: 18%;
+    margin-top: 20%;
+    margin-left: 41%;
+}
+
+#SignInNewHere{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 300%;
+    margin: 0;
+    margin-top: 3%;
+}
+
+#SignInAD{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 200%;
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+#SignUpButton{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding: 2px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 200%;
+    border-radius: 25px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+#SignUpButton:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: whitesmoke;
+    padding: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: solid whitesmoke 2px;
+    box-shadow: 0px 0px 20px 10px rgba(255,255,255,0.25);
+}

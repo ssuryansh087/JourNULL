@@ -1,0 +1,127 @@
+#SignUpPage{
+    display: flex;
+    overflow: hidden;
+}
+
+#SignUpLeft{
+    width: 39.5%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    margin-top: 0.25%;
+    border-radius: 20px;
+    background-color: #000;
+    height: 81vh;
+    font-family: 'Karla', sans-serif;
+}
+
+#SignUpLogo{
+    width: 18%;
+    margin-top: 20%;
+    margin-left: 41%;
+}
+
+#SignInButton{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding: 2px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 200%;
+    border-radius: 25px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+#SignInButton:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: whitesmoke;
+    padding: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: solid whitesmoke 2px;
+    box-shadow: 0px 0px 20px 10px rgba(255,255,255,0.25);
+}
+
+#SignUpRight{
+    width: 59.75%;
+    margin-left: 0%;
+    margin-right: 0.25%;
+    margin-top: 0.25%;
+    border-radius: 20px;
+    background-color: #000;
+    height: 81vh;
+}
+
+#SignUpCreateAccount{
+    text-align: center;
+    font-size: 300%;
+    color: whitesmoke;
+    margin-top: 12.5%;
+}
+
+#SignUpUsernameInput{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+}
+
+#SignUpEmailInput{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+}
+
+#SignUpPasswordInput{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+}
+
+#SignUpPasswordInputDiv{
+    position: relative;
+    margin-top: 2%;
+}
+
+#SignUpSubmitButton{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 3%;
+    padding: 2px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 200%;
+    border-radius: 25px;
+    font-family: "Karla", sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+#SignUpSubmitButton:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: whitesmoke;
+    padding: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: solid whitesmoke 2px;
+    box-shadow: 0px 0px 20px 10px rgba(255,255,255,0.25);
+}

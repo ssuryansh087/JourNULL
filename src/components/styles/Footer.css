@@ -1,0 +1,17 @@
+#Footer{
+    position: absolute;
+    top: 91%;
+    font-family: "Karla", sans-serif;    
+    font-size: 150%;
+    background-color: #000;
+    color: whitesmoke;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    width: 99.5%;
+    margin-left: 0.25%;
+    margin-right: 0.25%;
+    margin-bottom: 0.25%;
+    border-radius: 20px;
+    text-align: center;
+}
+    
