@@ -15,15 +15,15 @@ function ToDoRight(){
     }
 
     function handleAddTodo(){
-        if(loggedIn === false){
-            let dialog = document.getElementById('SignInFirstDialog');
-            dialog.showModal();
-        }
-        else{
+        //if(loggedIn === false){
+        //    let dialog = document.getElementById('SignInFirstDialog');
+        //    dialog.showModal();
+        //}
+        //else{
             if(inputVal.trim() !== ''){
                 setTodos([...todos, inputVal]);
                 setInputVal('');
-            }
+        //    }
         }
     }
 
@@ -55,7 +55,7 @@ function ToDoRight(){
                 onChange={(e) => setInputVal(e.target.value)}
                 onKeyDown={handleKey}
                 />
-                <button id="ToDoListInputButton" onClick={handleAddTodo}>Add</button>
+                <button id="ToDoListInputButton" onClick={() => handleAddTodo()}>Add</button>
             </div>
             <div style={{display: todos.length === 0 ? "flex" : "none", justifyContent: "center", height: "75vh", alignItems: "center", fontFamily: "Karla", fontSize: "200%"}}>
                 Your Tasks Appear Here!
